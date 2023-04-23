@@ -1,0 +1,218 @@
+
+
+ul {
+    list-style-type: none;
+    margin:20px;
+    padding-top: 20px;
+    padding-bottom:20px;
+  }
+    li:hover{
+    background-color:rgb(125, 150, 155);
+  }
+  li {
+    display: inline;
+    padding:10px;
+    text-shadow: 10px;
+  }
+
+    h1 {
+        color:rgb(89, 153, 155);
+        }
+        
+        p {
+        color:rgb(245, 130, 237);
+        text-align: justify;
+        }
+        
+        .paragraph {
+            background-color: rgb(237, 190, 226);
+            width: 100%;
+        }
+
+
+    #pie-de-pagina {
+            background-color: white;
+            width: auto;
+            text-align:justify;
+            margin-top:20px;
+            padding:1cm;
+            display:flex;
+
+            }
+    .column_footer{
+      flex:50%;
+      padding:5px;
+      height: auto;
+      align-items:space-between;
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+
+    .contenedor_1 {
+        margin:20px
+    }
+
+
+    .flex-container{
+      display: flex;
+      justify-content: space-around;
+      flex-direction: row;
+      flex-wrap:wrap;
+      border: 2px solid rgb(255, 255, 255);
+    }
+
+    .flex-container div{
+      background-color: lightpink;
+      width: 50%;
+      margin: 10px;
+      text-align: center;
+      line-height: 75px;
+      font-size: 20px;
+      border: 2px solid rgb(255, 255, 255);
+    }
+    .item {
+      flex-shrink: 3;
+    }
+    
+    .parent {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(3, 1fr);
+      grid-column-gap: 10px;
+      grid-row-gap: 10px;
+      }
+
+      body {
+        background-image: url("../img/dqs.jpeg");
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+      }
+      
+      .grid-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #03afff;
+        border-radius: 4px;
+        transition: transform 0.3s ease-in-out;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      
+      .grid-item:hover {
+        filter: opacity(0.9);
+        transform: scale(1.04);
+      }
+      
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        grid-auto-rows: minmax(200px, auto);
+        gap: 20px;
+        padding: 20px;
+        grid-auto-flow: dense;
+      }
+      
+      /* Footer  */
+.footer__container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color:white;
+  padding:30px;
+}
+.footer__div__datos {
+  margin-top: 0.625rem;
+  margin-left: 0.625rem;
+}
+.footer__div__items{
+  line-height: 2rem;
+}
+.footer__p {
+  font-size: 1.5rem;
+  font-family: 'Antic Didone', serif;
+  font-weight: bold;
+}
+.footer__p--ubicacion{
+  font-family: 'Antic Didone', serif;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 3.12rem;
+}
+.footer__items__redes{
+  display: inline;
+  margin:0.5rem;
+}
+.footer__div__derechos{
+  height: 10rem;
+  margin-left: 0.1rem;
+  display: flex;
+  align-items: flex-end;
+}
+.footer__container__map{
+  width: 60vw;
+  border-radius: 1rem;
+  margin: 1.25rem 6.25rem;
+}
+.footer__link__redes{
+  color: black;
+}
+.footer__map{
+  width:100%;
+  height: 100%;
+  border-radius: 1rem;
+}
+/* Iconos */
+.footer__icon__facebook{
+  color:#4267B2;
+  font-size: 25px;
+}
+.footer__icon__instagram {
+  color: #E1306C;
+  font-size: 25px;
+}
+/* media queri footer */
+
+
+@media only screen and (max-width:420px){
+  .footer__container{
+      display: flex;
+      flex-direction: column;
+  }
+  .footer__p--ubicacion{
+      font-size: 1.5rem;
+  }
+  .footer__p{
+      font-size: 1.3rem;
+  }
+  .footer__link__redes{
+      color: black;
+  }
+  .footer__container__map{
+      display: none;
+  }
+}
+@media only screen and (min-width:421px) and (max-width:960px){
+  /* media queri footer */
+  .footer__container{
+      display: flex;
+      flex-direction: column;
+  }
+  .footer__p--ubicacion{
+      font-size: 1.5rem;
+  }
+  .footer__p{
+      font-size: 1.3rem;
+  }
+  .footer__link__redes{
+      color: black;
+  }
+  .footer__container__map{
+      display: none;
+  }
+}
+/* Fin footer */
