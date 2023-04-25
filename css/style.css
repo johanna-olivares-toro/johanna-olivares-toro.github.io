@@ -116,6 +116,12 @@ ul {
         padding: 20px;
         grid-auto-flow: dense;
       }
+
+      /* carrusel */
+      .carousel-inner > .item > img {
+        width: 80%;
+        margin: auto;
+      }
       
       /* Footer  */
       .footer__container {
@@ -209,4 +215,29 @@ ul {
         }
       
       }
-      /* fin footer */
+
+/* formulario */
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+/* media */
+  @media (max-width: 768px) {
+    .form-group {
+      margin-bottom: 10px;
+    }
+  }
+
+
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+  @media (max-width: 768px) {
+    .form-group {
+      margin-bottom: 10px;
+    }
+  }
+
+ /* fin footer */
+
