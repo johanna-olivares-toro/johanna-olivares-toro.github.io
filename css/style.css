@@ -21,6 +21,12 @@ p {
   line-height: 1.5;
   margin-bottom: 20px; }
 
+  .margen-p {
+    margin: 20px;
+    padding: 10px;
+  }
+  
+
 .paragraph {
   background-color: #edbee2;
   width: 100%;
@@ -51,6 +57,7 @@ p {
   flex-direction: row;
   flex-wrap: wrap;
   border: 2px solid white; }
+  
   .flex-container div {
     background-color: lightpink;
     width: 50%;
@@ -225,4 +232,4 @@ body {
     margin-bottom: 10px;
     margin-bottom: 10px; } }
 
-/*# sourceMappingURL=style.css.map */
+
